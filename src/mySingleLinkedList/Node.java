@@ -1,10 +1,10 @@
 package mySingleLinkedList;
 
-public class SingleLinkedListNode {
+public class Node {
     int data;
-    SingleLinkedListNode next;
+    Node next;
 
-    public SingleLinkedListNode(int data) {
+    public Node(int data) {
         this.data = data;
     }
 }
